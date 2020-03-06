@@ -6,7 +6,7 @@ public class Client {
 		Proxy proxy = new Proxy();
 		try {
 			proxy.connect("google.com");
-			proxy.connect("niggafat.com");
+			proxy.connect("random.com");
 		}catch(Exception e) {
 			System.out.println(e.getMessage());
 		}

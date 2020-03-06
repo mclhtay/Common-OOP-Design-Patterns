@@ -7,7 +7,7 @@ public class Proxy implements Internet{
 	private Internet internet = new RealInternet();
 	
 	static{
-		bannedSites.add("niggafat.com");
+		bannedSites.add("random.com");
 		bannedSites.add("shabi.com");
 
 	}
